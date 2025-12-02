@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  ChildFrm.cpp
+  ClassView.cpp
+  FileView.cpp
+  MainFrm.cpp
+  MfcSdaApp.cpp
+  MfcSdaAppDoc.cpp
+  MfcSdaAppView.cpp
+  OutputWnd.cpp
+  PropertiesWnd.cpp
+  ViewTree.cpp
+  Generating Code...
+  MfcSdaApp.vcxproj -> C:\Source\CPP_Concepts\x64\Debug\MfcSdaApp.exe
