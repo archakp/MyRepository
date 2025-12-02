@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\OperatorOverloading">
+      <UniqueIdentifier>{1d37f7e9-53ae-4f8e-b9b0-c4f24b02d1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StringTokenizing">
+      <UniqueIdentifier>{13d47e70-5d9d-4f20-9d9b-7c190dfab30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinkedLists">
+      <UniqueIdentifier>{7394e397-00e0-4c19-8581-49e8c2ddfe41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Containers">
+      <UniqueIdentifier>{16d02bbd-e6fc-4749-8874-d16e07d64df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\POLYMORPHISM">
+      <UniqueIdentifier>{de207417-0fc8-42f5-9181-6304d3cf06e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cpp_Castings">
+      <UniqueIdentifier>{520bdb8f-da39-4fd6-ac10-ac0cd0fb03f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PassByValRef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnaryOp.cpp">
+      <Filter>Source Files\OperatorOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryOp.cpp">
+      <Filter>Source Files\OperatorOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenize1.cpp">
+      <Filter>Source Files\StringTokenizing</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenize2.cpp">
+      <Filter>Source Files\StringTokenizing</Filter>
+    </ClCompile>
+    <ClCompile Include="vectors.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="lists.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Single.cpp">
+      <Filter>Source Files\LinkedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Double.cpp">
+      <Filter>Source Files\LinkedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Circular.cpp">
+      <Filter>Source Files\LinkedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Template.cpp">
+      <Filter>Source Files\LinkedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Dqueue.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Multimaps.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiset.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Reverse.cpp">
+      <Filter>Source Files\LinkedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance.cpp">
+      <Filter>Source Files\POLYMORPHISM</Filter>
+    </ClCompile>
+    <ClCompile Include="Friend.cpp">
+      <Filter>Source Files\POLYMORPHISM</Filter>
+    </ClCompile>
+    <ClCompile Include="static_cast.cpp">
+      <Filter>Source Files\Cpp_Castings</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_cast.cpp">
+      <Filter>Source Files\Cpp_Castings</Filter>
+    </ClCompile>
+    <ClCompile Include="const_cast.cpp">
+      <Filter>Source Files\Cpp_Castings</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Notes_LL.txt">
+      <Filter>Source Files\LinkedLists</Filter>
+    </Text>
+    <Text Include="Notes.txt">
+      <Filter>Source Files\Containers</Filter>
+    </Text>
+    <Text Include="Notes_Polymorph.txt">
+      <Filter>Source Files\POLYMORPHISM</Filter>
+    </Text>
+    <Text Include="Casting_Notes.txt">
+      <Filter>Source Files\Cpp_Castings</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

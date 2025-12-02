@@ -1,0 +1,9 @@
+
+
+
+1) Static_cast
+==============
+
+-	Performs implicit casting between compatible types.
+-	Use static_cast when conversion between types is provided by either 'conversion operator' or 'conversion constructor'.
+-	It is more restrictive than C-style casting. It doesnt allow incompatible type to be converted.
