@@ -1,0 +1,37 @@
+// ComServer2.idl : IDL source for ComServer2
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ComServer2.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(b9012c3b-ff22-41c3-9ee8-1d3d314e2cbe),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IMaths : IDispatch
+{
+	[id(1)] HRESULT Add2([in] LONG a, [in] LONG b, [out, retval] LONG* res);
+};
+[
+	uuid(befeb99b-fa04-47a1-85e8-e61d6002e679),
+	version(1.0),
+]
+library ComServer2Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(12a2bbed-bdb6-41d4-81d5-1ac093804ec6)
+	]
+	coclass Maths
+	{
+		[default] interface IMaths;
+	};
+};
+
+import "shobjidl.idl";

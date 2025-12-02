@@ -1,0 +1,26 @@
+HKCR
+{
+	ComServer2.Maths.1 = s 'Maths class'
+	{
+		CLSID = s '{12a2bbed-bdb6-41d4-81d5-1ac093804ec6}'
+	}
+	ComServer2.Maths = s 'Maths class'
+	{		
+		CurVer = s 'ComServer2.Maths.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {12a2bbed-bdb6-41d4-81d5-1ac093804ec6} = s 'Maths class'
+		{
+			ProgID = s 'ComServer2.Maths.1'
+			VersionIndependentProgID = s 'ComServer2.Maths'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{befeb99b-fa04-47a1-85e8-e61d6002e679}'
+			Version = s '1.0'
+		}
+	}
+}

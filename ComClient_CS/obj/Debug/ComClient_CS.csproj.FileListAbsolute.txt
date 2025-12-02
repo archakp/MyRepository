@@ -1,0 +1,5 @@
+C:\Source\CPP_Concepts\ComClient_CS\obj\Debug\ComClient_CS.csproj.AssemblyReference.cache
+C:\Source\CPP_Concepts\ComClient_CS\obj\Debug\ComClient_CS.csproj.ResolveComReference.cache
+C:\Source\CPP_Concepts\ComClient_CS\obj\Debug\ComClient_CS.Properties.Resources.resources
+C:\Source\CPP_Concepts\ComClient_CS\obj\Debug\ComClient_CS.csproj.GenerateResource.cache
+C:\Source\CPP_Concepts\ComClient_CS\obj\Debug\ComClient_CS.csproj.CoreCompileInputs.cache
